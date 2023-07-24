@@ -1,0 +1,60 @@
+*{
+    box-sizing: border-box;
+}
+
+
+html{
+    height: 100%;
+}
+
+
+body{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+
+main{
+border:3px solid black;
+padding: 20px  20px 15px 20px;
+border-radius: 15px;
+
+
+
+}
+
+
+.Display{
+    border: 2px solid black;
+    padding:1em; 
+    text-align: right;
+    margin-bottom: 15px;
+    font-size: 20px;
+}
+
+
+.Button-Container{
+display: flex;
+
+
+}
+button{
+    width: 100px;
+    height:100px;
+    margin: 2px;
+    font-size: 18px;
+    border-radius: 15px;
+    
+}
+
+.Number-Container{
+width: 330px;
+}
+
+.Operator-Container{
+    width: 104px;
+}
+
